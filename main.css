@@ -1,0 +1,128 @@
+/* Write your CSS code in this file */
+body {
+    background-image: url(https://exoplanets.nasa.gov/internal_resources/2069);
+}
+
+header {
+    color:rgb(155, 192, 69);
+    font-family: Permanent Marker;
+}
+
+main {
+    display: flex;
+    justify-content: space-between; 
+}
+
+h1 {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 25px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.fades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 220px;
+    bottom: 180px;
+    box-sizing: border-box 3px white;
+    font-size: 50px;
+}
+
+li {
+    list-style: none;
+    font-size: 35px;
+    position: relative;
+    bottom: 75px;
+    left: 75px;
+    font-weight: bolder;
+    color: white;
+}
+
+#rules {
+    display: flex;
+    justify-content: right;
+    margin-right: 265px;
+    font-size: 35px;
+
+}
+
+.guess-holder {
+    color: aliceblue;
+    width: 300px;
+    position: relative;
+    bottom: 14px;
+}
+
+.some-hints {
+    color: aliceblue;
+    align-self: flex-start;
+    position: relative;
+    top: 84px;
+}
+
+#get {   
+    font-size: 45px;
+    position: fixed;
+    top: 500px;
+    left: 700px;
+    right: 50px;
+    margin-right: 255px;
+    color: white;
+}
+
+.guessing {
+    
+    justify-content: center;
+    position: fixed;
+    right: 310px;
+    flex-direction: column;
+    align-content: flex-end;   
+}
+
+#guess-input {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 110px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    position: fixed;
+    right: 330px;
+    top: 650px;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+
+#hint {
+    background-color: black;
+    color: white;
+}
+
+#play-again {
+    background-color: black;
+    color: white;
+    padding: 60px
+}
+
+button :hover {
+    background-color: white;
+    color: black;
+}

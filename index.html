@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title-head">Take a Guess!</h1>
+      <h3 id="rules">~Guess a series of numbers~</h3>
+      <h3 id="get"></h3>
+    </header>
+  <main>
+    <div class="fades">
+      <div class="guess-holder">
+        <h2>Guesses</h2>
+        <ul class="previous-guesses">
+          <li id="guess"></li>
+          <li id="guess"></li>
+          <li id="guess"></li>
+          <li id="guess"></li>
+          <li id="guess"></li>
+        </ul>
+      </div>
+
+      <!-- <div class="some-hints">
+        <h2>Hints:</h2>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div> -->
+    </div>
+    <div class="guessing">
+        <div class="guess-box">
+          <input type="text" id="guess-input">
+        </div>
+      <div class="buttons">
+        <button type="button" id="submit">Play on!</button>
+        
+        
+        
+        <button type="button" id="play-again">Play Again?</button>
+      </div>
+    </div>
+    
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </main>
+  </body>
+  <script src='js/guessing-game.js'></script>
+</html>
